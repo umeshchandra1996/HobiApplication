@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.17387387387387387" />
+        <entry key="..\:/ZSOMEANDROIDAPP/HOBI/HOBIAPP/app/src/main/res/layout/activity_login.xml" value="0.11816939890710383" />
+        <entry key="..\:/ZSOMEANDROIDAPP/HOBI/HOBIAPP/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_style_background.xml" value="0.18783783783783783" />
+        <entry key="app/src/main/res/drawable/card_cornner_top.xml" value="0.18783783783783783" />
+        <entry key="app/src/main/res/drawable/ic_baseline_feed_24.xml" value="0.18783783783783783" />
+        <entry key="app/src/main/res/drawable/round_sape.xml" value="0.18783783783783783" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_topup.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_deals.xml" value="0.17387387387387387" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_product_paggination.xml" value="0.17387387387387387" />
+        <entry key="app/src/main/res/layout/header_layout_for_app.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/network_state_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/news_list_item.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/product_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/dashboard_bottomnavview_menu.xml" value="0.17387387387387387" />
+        <entry key="app/src/main/res/xml/network_config.xml" value="0.17387387387387387" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

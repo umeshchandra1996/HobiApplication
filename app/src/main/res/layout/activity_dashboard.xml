@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.dashboard.DashboardActivity">
+
+        <FrameLayout
+            android:id="@+id/fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_50">
+
+        </FrameLayout>
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/app_color"
+                app:tint="@color/app_color"
+                app:fabCradleMargin="0dp"
+                app:contentInsetStart="@dimen/dp_0"
+                app:contentInsetEndWithActions="@dimen/dp_0"
+                app:contentInsetRight="@dimen/dp_0"
+                app:contentInsetLeft="@dimen/dp_0"
+                app:contentInsetStartWithNavigation="@dimen/dp_0"
+                app:contentInsetEnd="@dimen/dp_0"
+                app:fabCradleRoundedCornerRadius="0dp"
+                app:fabCradleVerticalOffset="0dp"
+                tools:ignore="BottomAppBar">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/app_color"
+                    app:itemHorizontalTranslationEnabled="true"
+                    app:itemBackground="@drawable/bottom_navigation_style_background"
+                    app:itemIconTint="@drawable/bottom_navigation_style"
+                    app:itemTextColor="@drawable/bottom_navigation_style"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/dashboard_bottomnavview_menu" />
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                app:backgroundTintMode="screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_qr_code_scanner_24"
+                app:tint="@color/white"
+                android:visibility="gone"
+                app:layout_anchor="@id/bottomAppBar"
+                app:backgroundTint="@color/app_color"
+                app:shapeAppearanceOverlay="@style/shapeFab"
+                android:contentDescription="TODO" />-->
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

@@ -1,4 +1,3 @@
-package com.umesh.hobiapplication.localdb.modeldata
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
